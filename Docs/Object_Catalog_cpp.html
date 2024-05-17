@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Object_Catalog API</title>
+    <style type="text/css">
+      @import url("Coder_Doc.css");
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="top_pane">
+        <h1 class="banner">API Documentation :: Object_Catalog</h1>
+        <br />
+        <a href="Files.html">Files</a> :: Object_Catalog API
+      </div>
+      <div class="left_pane">
+        <a href="#6D61696E">main</a><br />
+<a href="#4C61796F75745F50726F63657373">Layout_Process</a><br />
+<a href="#50726F636573735F4B657973">Process_Keys</a><br />
+<a href="#634F626A6563745F436174616C6F67">cObject_Catalog</a><br />
+<a href="#4F6E5F427574746F6E5F436C69636B">On_Button_Click</a><br />
+<a href="#4F6E5F4C6973745F436C69636B">On_List_Click</a><br />
+<a href="#4F6E5F496E6974">On_Init</a><br />
+<a href="#4C6F61645F436174616C6F67">Load_Catalog</a><br />
+<a href="#536176655F436174616C6F67">Save_Catalog</a><br />
+<a href="#4C6F61645F436174616C6F675F4D656E75">Load_Catalog_Menu</a><br />
+<a href="#536176655F436174616C6F675F4D656E75">Save_Catalog_Menu</a><br />
+<a href="#52657363616E5F506172656E745F4F626A656374">Rescan_Parent_Object</a><br />
+<a href="#4465737461725F4F626A656374">Destar_Object</a><br />
+<a href="#4C6F61645F4F626A6563745F46726F6D5F47726964">Load_Object_From_Grid</a><br />
+<a href="#536176655F4F626A6563745F546F5F47726964">Save_Object_To_Grid</a><br />
+<a href="#436C6561725F436174616C6F67">Clear_Catalog</a><br />
+      </div>
+      <div class="right_pane">
+        <a name="6D61696E"></a> <h1>int main(int argc, char&ast; argv)</h1><a name="4C61796F75745F50726F63657373"></a> <h1>bool Layout_Process()</h1><br />Called when command needs to be processed.<br /><span class="return">returns</span> True if the app needs to exit, false otherwise.<br /><br /><a name="50726F636573735F4B657973"></a> <h1>bool Process_Keys()</h1><br />Called when keys are processed.<br /><span class="return">returns</span> True if the app needs to exit, false otherwise.<br /><br /><a name="634F626A6563745F436174616C6F67"></a> <h1>cObject_Catalog(cIO_Control&ast; io)</h1><br />Creates a new object catalog.<br /><span class="parameter">io</span> The I/O control.<br /><br /><a name="4F6E5F427574746F6E5F436C69636B"></a> <h1>void cObject_Catalog::On_Button_Click(tObject&amp; entity)</h1><br />Called when buttons are clicked.<br /><span class="parameter">entity</span> The button entity.<br /><br /><a name="4F6E5F4C6973745F436C69636B"></a> <h1>void cObject_Catalog::On_List_Click(tObject&amp; entity, std::string text)</h1><br />Called when lists are clicked.<br /><span class="parameter">entity</span> The list entity.<br /><span class="parameter">text</span> The text of the item that was clicked.<br /><br /><a name="4F6E5F496E6974"></a> <h1>void cObject_Catalog::On_Init()</h1><br />Called when the catalog is initialized.<br /><br /><a name="4C6F61645F436174616C6F67"></a> <h1>void cObject_Catalog::Load_Catalog(std::string name)</h1><br />Loads the catalog.<br /><span class="parameter">name</span> The name of the catalog to load.<br /><br /><a name="536176655F436174616C6F67"></a> <h1>void cObject_Catalog::Save_Catalog(std::string name)</h1><br />Saves the catalog.<br /><span class="parameter">name</span> The name of the catalog.<br /><span class="throws">throws</span> An error if the catalog could not be saved.<br /><br /><a name="4C6F61645F436174616C6F675F4D656E75"></a> <h1>void cObject_Catalog::Load_Catalog_Menu(std::string name)</h1><br />Loads the catalog menu.<br /><span class="parameter">name</span> The name of the menu to load.<br /><br /><a name="536176655F436174616C6F675F4D656E75"></a> <h1>void cObject_Catalog::Save_Catalog_Menu(std::string name)</h1><br />Saves the catalog menu.<br /><span class="parameter">name</span> The name of the menu to save.<br /><br /><a name="52657363616E5F506172656E745F4F626A656374"></a> <h1>void cObject_Catalog::Rescan_Parent_Object(tObject&amp; object)</h1><br />Rescans the parent object and updates the parent properties.<br /><span class="parameter">object</span> The subclass object.<br /><br /><a name="4465737461725F4F626A656374"></a> <h1>void cObject_Catalog::Destar_Object(tObject&amp; object)</h1><br />Destars a starred object.<br /><span class="parameter">object</span> The object to unstar.<br /><br /><a name="4C6F61645F4F626A6563745F46726F6D5F47726964"></a> <h1>void cObject_Catalog::Load_Object_From_Grid(tObject&amp; object)</h1><br />Loads an object from the inspector.<br /><span class="parameter">object</span> The object.<br /><br /><a name="536176655F4F626A6563745F546F5F47726964"></a> <h1>void cObject_Catalog::Save_Object_To_Grid(tObject&amp; object)</h1><br />Saves an object to the inspector.<br /><span class="parameter">object</span> The object.<br /><span class="throws">throws</span> An error if the object has too many properties.<br /><br /><a name="436C6561725F436174616C6F67"></a> <h1>void cObject_Catalog::Clear_Catalog()</h1><br />Clears out the loaded catalog.<br /><br />
+      </div>
+    </div>
+  </body>
+</html>

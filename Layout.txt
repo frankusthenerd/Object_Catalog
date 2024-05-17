@@ -1,0 +1,39 @@
++-catalog_menu---------+              +-catalog_inspector----------------------+
+|                      |              |                                        |
+|                      |              |                                        |
+|                      |              |                                        |
+|                      |              |                                        |
+|                      |              |                                        |
+|                      |              |                                        |
+|                      |              |                                        |
+|                      |              |                                        |
+|                      |              |                                        |
+|                      |              |                                        |
+|                      |              |                                        |
+|                      |              |                                        |
++----------------------+              |                                        |
+[ catalog_name         ]              |                                        |
+( add_catalog          )              |                                        |
+( save_catalog         )              |                                        |
++-catalog_objects------+              |                                        |
+|                      |              |                                        |
+|                      |              |                                        |
+|                      |              |                                        |
+|                      |              |                                        |
+|                      |              |                                        |
+|                      |              |                                        |
+|                      |              |                                        |
+|                      |              |                                        |
++----------------------+              |                                        |
+[ object_name   ][ object_parent ]    |                                        |
+( add_object           )              +----------------------------------------+
+( delete_object        )              ( update_object )        ( rescan_parent )
+catalog_menu->type=list
+add_catalog->label=Add Catalog,red=0,green=0,blue=128
+save_catalog->label=Save Catalog,red=0,green=128,blue=0
+catalog_objects->type=list
+add_object->label=Add Object,red=0,green=0,blue=128
+delete_object->label=Delete Object,red=128,green=0,blue=0
+catalog_inspector->type=grid-view,columns=2,rows=50
+update_object->label=Update Object,red=0,green=0,blue=128
+rescan_parent->label=Rescan Parent,red=0,green=128,blue=0
