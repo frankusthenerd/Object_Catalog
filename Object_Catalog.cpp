@@ -110,6 +110,7 @@ namespace Nerd {
           if (this->catalog.Does_Key_Exist(parent)) {
             tObject object;
             object["parent"].Set_String(parent); // Add parent property.
+            this->catalog[name] = object;
             int prop_count = this->catalog[parent].Count();
             for (int prop_index = 0; prop_index < prop_count; prop_index++) {
               std::string property = this->catalog[parent].keys[prop_index];
